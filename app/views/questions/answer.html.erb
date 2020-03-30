@@ -1,1 +1,10 @@
-<h1>This is answer page</h1>
+<h1 class="banner">This is answer page</h1>
+
+<h2><em> <%= params[:message] %> </em></h2>
+<h2> - You </h2>
+
+<h2> <%= @answer %> </h2>
+<h2><em> - Your coach </em></h2>
+
+
+<%= link_to 'Ask a new question', ask_path %>
